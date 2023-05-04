@@ -3,3 +3,4 @@ pandas
 azure.identity
 azure-keyvault-secrets
 azure-mgmt-resource
+azure-mgmt-datafactory
