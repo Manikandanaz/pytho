@@ -16,7 +16,7 @@
 #ImMutable datatype(value of the variable wont get overrided-list,set,dict)
 
 #dict
-a={"key":"value","key2":"value2"}
+a={"key":"value","key2":"value2s"}
 print(type(a))
 b=print(a.items())
 b=print(a.keys())

@@ -1,0 +1,24 @@
+1.Story Telling process involves DataAnalysis.
+2.DataAnalysis is the process of identifying,cleaning,transforming and modelling data to discover useful and right information.
+..Then data is crafted as story through reports for analysis to support business critical decision.
+3.Components of DataAnalysis are :
+    1.Descriptive--Saying What has happened based historical data (Ex:kpi's on sales and financial data in industry)
+    2.Diagonisis--Answering to why events occured(Ex:it takes Descriptive data and diagonis it to identify anomalies and its reason using statistical techniques)
+    3.predictive--Answering to what will happen in future.whether it may recoccur using predictive analysis techniques(neural networks,ML,Decision Tree etc)
+    4.prescriptive--Answering to what steps need to take to achieve goal or target using predictive insights.
+    5.cognitive--This will answering to what will happen if any circumstance change and how to address it using ML algorthims(ex:call center call logs and product reviews) 
+  Different roles of data:
+    1.Business Analyst--person works with much closer to business
+    2.Data Analyst--responsible fo profiling,cleaning and transforming data then design dashboard and reports ,maintaining workspace,implementing pbi security procedures.
+    3.Data Engineer--get data from differnt sources
+    4.Data Scientist--extract more value from data collected using Descriptive to predictive analytics(EDA-Exploratory data analysis)
+    5.Data Administratior--Admin the db's stuff.
+
+Task of Data Analyst:s
+    1.Prepare
+    2.Analyze.
+    3.Model 
+    4.Manage
+    5.Visualizes.a a
+
+  
