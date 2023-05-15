@@ -1,3 +1,3 @@
-#! /usr/bin/python3.10
+#! python3.9
 import sys
-sys.stdout.write("hello i am from python %s\n" % (sys.version,))
+sys.stdout.write("hello from Python %s\n" % (sys.version,))
