@@ -1,0 +1,14 @@
+{
+    "dev":{
+        "DB_USER" : "admin123",
+        "DB_PWS" : "Ramco@1234",
+        "DB_SERVER" : "",
+        "DB_DATABASE" : ""
+    },
+    "ci":{
+        "DB_USER" : "admin123",
+        "DB_PWS" : "Ramco@1234",
+        "DB_SERVER" : "",
+        "DB_DATABASE" : ""
+    }
+}
