@@ -2,8 +2,10 @@
     "dev":{
         "DB_USER" : "admin123",
         "DB_PWS" : "Ramco@1234",
-        "DB_SERVER" : "",
-        "DB_DATABASE" : ""
+        "DB_SERVER" : "itsfidev.database.windows.net",
+        "DB_DATABASE" : "sandbox",
+        "BUILD_FOLDER" : "fdl_baserel1\\",
+        "BUILD_FILE" : "sqlbuild"
     },
     "ci":{
         "DB_USER" : "admin123",
