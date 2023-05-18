@@ -1,0 +1,2 @@
+Msg 2714, Level 16, State 3, Server itsfidev, Procedure a, Line 1
+There is already an object named 'a' in the database.

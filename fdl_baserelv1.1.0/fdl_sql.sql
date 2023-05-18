@@ -1,3 +1,3 @@
-:out log.txt
-:Error err.txt
-:r $(path)\sample.sql
+:out $(path1)\log.txt
+:Error $(path1)\err.txt
+:r $(path)\storedprocedures\sample.sql
