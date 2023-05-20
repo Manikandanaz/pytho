@@ -1,0 +1,14 @@
+1.Install Powershell Module
+    curl https://packages.microsoft.com/config/rhel/7/prod.repo | sudo tee /etc/yum.repos.d/microsoft.repo
+    sudo yum install --assumeyes powershell
+    pwsh
+2.install azure module
+    Install-Module -Name Az -Repository PSGallery -Force
+3.Make sure linux vm is enabled with system managed identity and role assigned
+4.Connect using System Managed Identity(Connect-AzAccount -Identity)
+Commands:
+Get-AzSubscription--get all subscription 
+Get-AzSubscription -TenantId "e90ab98b-24fa-41be-8a71-bb697b8b8876"--get subscription details specific tenant identity
+5.Setting AzContext 
+Get-AzSubscription -SubscriptionName 'Free Trial' | Set-AzContext -Name 'ManiAzContext'--Create context
+Get-AzContext -Name 'ManiAzContext'--list context
