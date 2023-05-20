@@ -1,0 +1,14 @@
+2023-05-17 13:45:50 - FDL_PYTHON - INFO infp statements:C:\wbg\workspace\letsee\pytho
+2023-05-17 13:46:46 - FDL_PYTHON - DEBUG infp statements:C:\wbg\workspace\letsee\pytho
+2023-05-17 13:56:41 192.168.0.1     fbloggs  infp statements:C:\wbg\workspace\letsee\pytho
+2023-05-17 13:56:52 192.168.0.1     fbloggs  infp statements:C:\wbg\workspace\letsee\pytho
+2023-05-17 14:55:39 192.168.0.1     fbloggs  infp statements:C:\wbg\workspace\letsee\pytho
+2023-05-17 14:59:15 '[' DEBUG ']' -- infp statements:C:\wbg\workspace\letsee\pytho
+2023-05-17 14:59:52 [ DEBUG ] -- infp statements:C:\wbg\workspace\letsee\pytho
+2023-05-17 15:00:21 [DEBUG] > infp statements:C:\wbg\workspace\letsee\pytho
+2023-05-17 15:01:08 [DEBUG] > Unexpected:C:\wbg\workspace\letsee\pytho
+2023-05-17 15:01:08 [INFO] > Unexpected:C:\wbg\workspace\letsee\pytho
+2023-05-17 15:30:21 [DEBUG] > Unexpected:C:\wbg\workspace\letsee\pytho
+2023-05-18 14:35:01 [DEBUG] > Unexpected:C:\wbg\workspace\letsee\pytho
+2023-05-18 14:38:30 [DEBUG] > Unexpected:C:\wbg\workspace\letsee\pytho
+2023-05-18 14:38:30 [ERROR] > Unexpected:C:\wbg\workspace\letsee\pytho
