@@ -2,6 +2,7 @@
     curl https://packages.microsoft.com/config/rhel/7/prod.repo | sudo tee /etc/yum.repos.d/microsoft.repo
     sudo yum install --assumeyes powershell
     pwsh
+    ssh -i C:\privatekey\mylinuxvm_sshkey.pem azureuser@20.168.205.60
 2.install azure module
     Install-Module -Name Az -Repository PSGallery -Force
 3.Make sure linux vm is enabled with system managed identity and role assigned
@@ -12,3 +13,10 @@ Get-AzSubscription -TenantId "e90ab98b-24fa-41be-8a71-bb697b8b8876"--get subscri
 5.Setting AzContext 
 Get-AzSubscription -SubscriptionName 'Free Trial' | Set-AzContext -Name 'ManiAzContext'--Create context
 Get-AzContext -Name 'ManiAzContext'--list context
+
+Create NewResourceGroup: 
+New-AzResourceGroup -Name "itsfi-dev" -Location "East US" -Tag @{Empty=$null; Department="IBRD"}
+New-AzResourceGroup -Name "itsfi-qa" -Location "East US" -Tag @{Department="IBRD-QA"}
+New-AzResourceGroup -Name "itsfi-prod" -Location "East US" -Tag @{Department="IBRD-Prod"}
+Get ResourceGrup:
+Get-AzResourceGroup -Name *dev*
