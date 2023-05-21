@@ -3,3 +3,4 @@ create users
 created keyvault
 stored service pricipal secret
 creted purview account
+created user managed identity
