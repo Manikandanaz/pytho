@@ -4,7 +4,7 @@ class main():
     def __init__(self):
         print(os.getcwd())
         with open('./myenv/sample.sql','r') as sqlfile:
-            qry=sqlfile.read()
+            qry=sqlfile.readlines()
             #print(pd.drivers())
             try:
                 #SQL Server Native Client 11.0

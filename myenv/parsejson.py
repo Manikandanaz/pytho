@@ -10,6 +10,6 @@ def myfun(a):
 jsonfile=open("myenv/sample.json","r")
 data=json.load(jsonfile)
 #print(data)
-print('the',data["properties"]["connectVia"].V02alues())
+print('the',data["properties"]["connectVia"])
 data["properties"]["connectVia"]="rvsi"
 print(data)
