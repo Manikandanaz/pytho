@@ -21,3 +21,9 @@ sd=pd.Series([23,45,'mani'],name="age")#create series only values
 #print(rd.duplicated().sum())
 #print(fd.isnull().sum())
 #print(rd["Age"].describe())
+#print(rd["Age"].isnull().sum())
+td=pd.DataFrame(rd["Age"].fillna('hi i am for null'))
+print(td.columns)
+#installed openpyxl module to export operation
+td.to_json("hi1frompy.json",indent=1,index='orient')
+
