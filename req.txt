@@ -5,3 +5,4 @@ azure-keyvault-secrets
 azure-mgmt-resource
 azure-mgmt-datafactory
 django
+matplotlib
